@@ -18,3 +18,8 @@ def to_lowercase(string):
 
     # Return the resulting string after conversion
     return result
+
+# Get user input (string to convert to lowercase)
+user_input = input("Enter a string to convert to lowercase: ")
+# Print the result after converting to lowercase
+print("String in lowercase:", to_lowercase(user_input))
