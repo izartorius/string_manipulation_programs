@@ -8,3 +8,7 @@ def capitalize_first(string):
         return string[0].upper() + string[1:].lower()
     return string
 
+# Get user input (string to capitalize the first letter)
+user_input = input("Enter a string to capitalize the first letter: ")
+# Print the string after capitalizing the first letter
+print("Capitalized string:", capitalize_first(user_input))
