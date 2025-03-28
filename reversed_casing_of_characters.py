@@ -7,3 +7,7 @@ def swap_case(string):
     # Use list comprehension to swap the case of each character
     return ''.join([char.lower() if 'A' <= char <= 'Z' else char.upper() for char in string])
 
+# Get user input (string to swap case)
+user_input = input("Enter a string to swap its case: ")
+# Print the string with swapped case
+print("String with swapped case:", swap_case(user_input))
