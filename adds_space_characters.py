@@ -6,3 +6,9 @@ def left_justify(string, width):
     # Add spaces to the right of the string to match the desired width
     return string + ' ' * (width - len(string))
 
+# Get user input (the string to justify)
+user_input = input("Enter a string: ")
+# Get user input (the width for the left-justified string)
+width = int(input("Enter the width for left-justification: "))
+# Print the string after left-justifying it
+print("Left-justified string:", left_justify(user_input, width))
