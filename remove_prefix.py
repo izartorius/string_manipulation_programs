@@ -9,3 +9,10 @@ def remove_prefix(string, prefix):
         return string[len(prefix):]
     # If the string doesn't start with the prefix, return the string as is
     return string
+
+#Get user input (the raw input)
+user_input = input("Enter a string: ")
+# Get user input (the prefix to remove)
+prefix = input("Enter a prefix to remove: ")
+# Print the result after removing the prefix
+print("String after removing the prefix:", remove_prefix(user_input, prefix))
