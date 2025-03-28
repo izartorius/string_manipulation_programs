@@ -7,3 +7,8 @@ def remove_leading_spaces(string):
         string = string[1:] #Removes the first character if it's a space
         # and continues to check until there are no more spaces
     return string #Returns the string without the leading spaces
+
+# User Input
+Input = input("Enter a string with leading spaces: ")
+#Prints the input without the leading spaces
+print("String after removing leading spaces:", remove_leading_spaces(Input))
