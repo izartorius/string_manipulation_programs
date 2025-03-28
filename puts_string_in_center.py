@@ -13,3 +13,9 @@ def center_string(string, width):
     # Return the string centered with the appropriate amount of padding
     return ' ' * left_padding + string + ' ' * right_padding
 
+# Get user input (the string to center)
+user_input = input("Enter a string: ")
+# Get user input (the width for centering the string)
+width = int(input("Enter the width for centering: "))
+# Print the centered string
+print("Centered string:", center_string(user_input, width))
