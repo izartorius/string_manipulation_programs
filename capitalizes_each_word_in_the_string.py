@@ -8,3 +8,7 @@ def title_case(string):
     words = string.split()
     return ' '.join([word[0].upper() + word[1:].lower() if word else '' for word in words])
 
+# Get user input (string to title-case)
+user_input = input("Enter a string to capitalize the first letter of each word: ")
+# Print the string after title-casing it
+print("Title-cased string:", title_case(user_input))
