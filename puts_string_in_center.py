@@ -1,6 +1,7 @@
 #Prog07: Create a program that adds space characters
 #in the left and rightmost part of the string so that the
-#string is printed in the center
+#string is printed in the center without using the
+#center() function
 
 # Function to center the string by adding spaces before and after
 def center_string(string, width):
