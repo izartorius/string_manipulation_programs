@@ -19,3 +19,7 @@ def convert_to_uppercase(input_string):
     # Return the result with all characters in uppercase
     return result
 
+# Get user input for the string
+input_string = input("Enter a string: ")
+# Call the function and print the result
+print(f"Uppercase: '{convert_to_uppercase(input_string)}'")
