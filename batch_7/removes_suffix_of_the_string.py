@@ -10,4 +10,7 @@ def remove_suffix(input_string, suffix):
         return input_string[:-len(suffix)]
     return input_string
 
-
+# Get user input
+input_string = input("Enter a string: ")
+suffix = input("Enter suffix to remove: ")
+print(f"Without suffix: '{remove_suffix(input_string, suffix)}'")
