@@ -14,4 +14,7 @@ def remove_trailing_spaces(input_string):
             break
     return result
 
-
+# Get user input
+input_string = input("Enter string with trailing spaces: ")
+print(f"Original: '{input_string}'")
+print(f"Without spaces at the end: '{remove_trailing_spaces(input_string)}'")
