@@ -5,3 +5,6 @@
 # Get user input
 text = input("Enter a string: ")
 width = int(input("Enter total width: "))
+# Calculate needed spaces and prepend them
+rjust_text = " " * (width - len(text)) + text
+print("rjust() equivalent:", rjust_text)
